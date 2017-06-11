@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Maqbool2017Summer</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_demo_fragment">Hello Demo fragment</string>
 </resources>
