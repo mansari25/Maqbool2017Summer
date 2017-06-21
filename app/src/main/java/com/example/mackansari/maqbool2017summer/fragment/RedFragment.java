@@ -3,11 +3,13 @@ package com.example.mackansari.maqbool2017summer.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.mackansari.maqbool2017summer.R;
+import com.example.mackansari.maqbool2017summer.util.UtilLog;
 
 
 public class RedFragment extends Fragment {
@@ -39,7 +41,8 @@ public class RedFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+       // Log.d("Fragment","onCreate");
+        UtilLog.d("Fragment","onCreate");
     }
 
     @Override

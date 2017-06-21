@@ -3,6 +3,7 @@
     package="com.example.mackansari.maqbool2017summer">
 
     <application
+        android:name=".MaqboolApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Maqbool2017Summer"
@@ -18,9 +19,26 @@
         </activity>
         <activity android:name=".ViewPagerActivity" />
         <activity
-            android:name=".LaunchModeActivity"
+            android:name=".ActivityA"
+            android:launchMode="standard" />
+        <activity android:name=".ScaleTypeActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".AdvanceListVIewActivity" />
+        <activity
+            android:name=".ActivityB"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".ActivityC"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ActivityD"
             android:launchMode="singleInstance" />
-        <activity android:name=".ScaleTypeActivity"></activity>
+        <activity android:name=".NinePatchActivity" />
+        <activity android:name=".AdcancedViewPagerActivity" />
+        <activity android:name=".Quiz_1_Activity" />
+        <activity android:name=".ResultActivity1" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".ResultActivity2"></activity>
     </application>
 
 </manifest>
